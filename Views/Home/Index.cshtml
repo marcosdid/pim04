@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bem vindo</h1>
+    <div class="flex-row row p-4">
+        <div class="mt-4">
+            <a class="text-dark border p-2 rounded-sm" asp-area="" asp-controller="Hospedes" asp-action="index">Hospedes</a>
+        </div>
+        <div class="mt-4 ml-2">
+            <a class="text-dark border p-2 rounded-sm" asp-area="" asp-controller="Funcionario" asp-action="index">Funcionarios</a>
+        </div>
+        <div class="mt-4 ml-2">
+            <a class="text-dark border p-2 rounded-sm" asp-area="" asp-controller="Reserva" asp-action="index">Reservas</a>
+        </div>
+        <div class="mt-4 ml-2">
+            <a class="text-dark border p-2 rounded-sm" asp-area="" asp-controller="Quarto" asp-action="index">Quartos</a>
+        </div>
+        <div class="mt-4 ml-2">
+            <a class="text-dark border p-2 rounded-sm" asp-area="" asp-controller="MetodoPagamento" asp-action="index">Métodos de pagamento</a>
+        </div>
+    </div>
+</div>

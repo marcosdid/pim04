@@ -1,0 +1,64 @@
+﻿@model pim04.Models.Reserva
+
+@{
+    ViewData["Title"] = "Check-out";
+}
+
+<h1>Check-out</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ID" />
+            <div class="form-group">
+                <label asp-for="HospedeId" class="control-label"></label>
+                <select disabled asp-for="HospedeId" class="form-control" asp-items="ViewBag.HospedeId"></select>
+                <span asp-validation-for="HospedeId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataEntrada" class="control-label"></label>
+                <input asp-for="DataEntrada" class="form-control" />
+                <span asp-validation-for="DataEntrada" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DataSaida" class="control-label"></label>
+                <input asp-for="DataSaida" class="form-control" />
+                <span asp-validation-for="DataSaida" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="QuartoId" class="control-label"></label>
+                <select disabled asp-for="QuartoId" class="form-control" asp-items="ViewBag.QuartoId"></select>
+                <span asp-validation-for="QuartoId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NumeroQuarto" class="control-label"></label>
+                <input asp-for="NumeroQuarto" class="form-control" />
+                <span asp-validation-for="NumeroQuarto" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MetodoPagamentoId" class="control-label"></label>
+                <select disabled asp-for="MetodoPagamentoId" class="form-control" asp-items="ViewBag.MetodoPagamentoId"></select>
+                <span asp-validation-for="MetodoPagamentoId" class="text-danger"></span>
+            </div>
+            <div class="row">
+                <h5 class="">
+                    Preco:
+                </h5>
+                <p class="ml-2">
+                    @Html.DisplayFor(model => model.Quarto.Preco)
+                </p>
+            </div>
+            <div class="form-group">
+                <button id="input-save" type="submit" class="btn btn-primary">Salvar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
+
+
