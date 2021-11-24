@@ -7,10 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Areas\Identity\**" />
-    <Content Remove="Areas\Identity\**" />
-    <EmbeddedResource Remove="Areas\Identity\**" />
-    <None Remove="Areas\Identity\**" />
+    <Compile Remove="Views\Identity\**" />
+    <Content Remove="Views\Identity\**" />
+    <EmbeddedResource Remove="Views\Identity\**" />
+    <None Remove="Views\Identity\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Remove="Areas\Identity\Pages\_ViewImports.cshtml" />
     <Content Remove="Views\Reserva\Edit - Cópia.cshtml" />
   </ItemGroup>
 

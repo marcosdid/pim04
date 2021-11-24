@@ -7,9 +7,13 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using pim04.Data;
 using pim04.Models;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace pim04.Controllers
 {
+    [Authorize]
+
     public class MetodoPagamentoController : Controller
     {
         private readonly Data.ApplicationDbContext _context;

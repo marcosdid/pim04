@@ -453,3 +453,9 @@ C:\Users\Marcos\projetos\pim04\pim04\obj\Debug\netcoreapp3.1\Razor\Views\MetodoP
 C:\Users\Marcos\projetos\pim04\pim04\obj\Debug\netcoreapp3.1\Razor\Views\MetodoPagamento\Edit.cshtml.g.cs
 C:\Users\Marcos\projetos\pim04\pim04\obj\Debug\netcoreapp3.1\Razor\Views\MetodoPagamento\Index.cshtml.g.cs
 C:\Users\Marcos\projetos\pim04\pim04\obj\Debug\netcoreapp3.1\Razor\Views\Reserva\CheckUp.cshtml.g.cs
+C:\Users\Marcos\projetos\pim04\pim04\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Marcos\projetos\pim04\pim04\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\Marcos\projetos\pim04\pim04\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
+C:\Users\Marcos\projetos\pim04\pim04\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\Marcos\projetos\pim04\pim04\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\Marcos\projetos\pim04\pim04\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
